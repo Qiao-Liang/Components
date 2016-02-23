@@ -1,0 +1,10 @@
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\bin\Debug\ExcelSpliter.dll
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\bin\Debug\ExcelSpliter.pdb
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\bin\Debug\ExcelSpliter.xml
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\obj\Debug\ExcelSpliter.Resources.resources
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\obj\Debug\ExcelSpliter.dll
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\obj\Debug\ExcelSpliter.xml
+C:\Users\aalian\Desktop\ExcelSpliter\ExcelSpliter\obj\Debug\ExcelSpliter.pdb

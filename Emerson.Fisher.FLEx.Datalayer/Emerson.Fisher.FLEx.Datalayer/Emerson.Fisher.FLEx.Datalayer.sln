@@ -1,0 +1,68 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Emerson.Fisher.FLEx.Datalayer", "Emerson.Fisher.FLEx.Datalayer\Emerson.Fisher.FLEx.Datalayer.vbproj", "{A67622B6-2955-4990-9B3E-BC93EB632B3A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestWebApplication", "TestWebApplication\TestWebApplication.vbproj", "{8BB2259B-C58E-4EEF-9274-20648C771295}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExceptionLogger", "ExceptionLogger\ExceptionLogger.vbproj", "{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://prchaz01103:8080/
+		SccProjectUniqueName0 = Emerson.Fisher.FLEx.Datalayer\\Emerson.Fisher.FLEx.Datalayer.vbproj
+		SccProjectName0 = Emerson.Fisher.FLEx.Datalayer
+		SccAuxPath0 = http://prchaz01103:8080
+		SccLocalPath0 = Emerson.Fisher.FLEx.Datalayer
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = TestWebApplication\\TestWebApplication.vbproj
+		SccProjectName1 = TestWebApplication
+		SccAuxPath1 = http://prchaz01103:8080
+		SccLocalPath1 = TestWebApplication
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A67622B6-2955-4990-9B3E-BC93EB632B3A}.Release|x86.ActiveCfg = Release|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8BB2259B-C58E-4EEF-9274-20648C771295}.Release|x86.ActiveCfg = Release|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{52574D19-6C6E-48DE-A9E9-40A9B1745C2B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

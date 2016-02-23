@@ -1,0 +1,102 @@
+﻿fieldset{
+    border:1px solid Navy;
+    color: #424242;
+    width:90%;
+    }
+legend {
+    padding: 0.2em 1em;
+    border:1px solid Navy;
+    color:Navy;
+    font-size:1.2em;
+    text-align:right;
+    margin-left:2em;
+    }
+label {
+    float:left;
+    width:25%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+    }
+p
+{
+    color: #424242;
+    }
+a, a:visited {
+    color: #466bb0;
+    text-decoration: none;
+}
+a.button {
+    background: transparent url('/Images/bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float:left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('/Images/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+               
+input[type=text]{
+    width:70%;
+    background-color:#f3f3f3;
+    border: 1px solid #BEBEBE;
+    padding:2px 4px;
+    margin-bottom:3px;
+} 
+textarea
+{
+    width:70%;
+    height:auto;
+    background-color: White;
+    margin-bottom:1em;
+    }
+#pagefooter
+{
+    margin-bottom:50px;
+    }
+.cusTitle
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+	font-size: 24pt;
+	padding-top: 12px;
+	padding-bottom: 3px;
+	color:Navy;
+    }
+.WaterMarkedTextArea
+{
+    height:160px;
+    width:70%;
+    padding: 2px 2 2 2px;
+    border: 1px solid #BEBEBE;
+    background-color: #F0F8FF;
+    color: gray;
+    font-size: 10pt;
+    text-align: center;
+}
+.NormalTextBox
+{
+    width:70%;
+    height:160px;
+    background-color: White;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #BEBEBE;
+} 

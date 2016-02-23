@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Emerson.Fisher.Flex.ExceptionLogger
+</name>
+</assembly>
+<members>
+<member name="M:Emerson.Fisher.Flex.ExceptionLogger.LogWriter(System.Object,System.EventArgs)">
+	<summary>
+ Log the exception to the Windows event log.
+ </summary>
+	<param name="obj"></param>
+	<param name="args"></param>
+	<remarks></remarks>
+</member><member name="M:Emerson.Fisher.Flex.ExceptionLogger.WriteEntry(System.String,System.String,System.Diagnostics.EventLogEntryType)">
+	<summary>
+ This method will check the log folder exists in Windows Event viewer. If not exists this method will create the log folder and log the exception details in it.
+ </summary>
+	<param name="eventSrc">Event Source which will be displayed in Eventviewer</param>
+	<param name="exceptionMessage">Exception message</param>
+	<param name="logType">Type of the exception like error,warning,information etc.</param>
+	<remarks>To write the exception in</remarks>
+</member><member name="M:Emerson.Fisher.Flex.ExceptionLogger.CacheException(System.Exception)">
+	<summary>
+	</summary>
+	<param name="objExp"></param>
+	<remarks></remarks>
+</member><member name="M:Emerson.Fisher.Flex.ExceptionLogger.Init(System.Web.HttpApplication)">
+	<summary>
+ Initiate the HttpModule
+ </summary>
+	<param name="objApp">Instance of the HttpApplication</param>
+	<remarks>To flesh out the Init method required by the IHttpModule interface. The system error </remarks>
+</member><member name="M:Emerson.Fisher.Flex.ExceptionLogger.Dispose">
+	<summary>
+ Dispose the HttpModule
+ </summary>
+	<remarks>Nothing to do in this case.</remarks>
+</member><member name="T:Emerson.Fisher.Flex.ExceptionLogger">
+	<summary>
+ This class helps to log exception message into Windows event log.
+ </summary>
+	<remarks>
+ Created by Alex Liang on 13-Oct-2011
+ </remarks>
+</member><member name="P:Emerson.Fisher.Flex.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Emerson.Fisher.Flex.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Emerson.Fisher.Flex.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

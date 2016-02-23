@@ -1,0 +1,11 @@
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\bin\Debug\ExcelExporter.dll
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\bin\Debug\ExcelExporter.pdb
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\bin\Debug\ExcelExporter.xml
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\ExcelExporter.Resources.resources
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\ExcelExporter.Templates.resources
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\ExcelExporter.dll
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\ExcelExporter.xml
+C:\Documents and Settings\aalian\My Documents\Visual Studio 2010\Projects\AlexWorkspace\ExcelExporter\ExcelExporter\obj\Debug\ExcelExporter.pdb

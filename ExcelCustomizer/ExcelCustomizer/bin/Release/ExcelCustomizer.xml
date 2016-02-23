@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelCustomizer
+</name>
+</assembly>
+<members>
+<member name="P:ExcelCustomizer.Customizer.TemplatePath">
+	<summary>
+ Path to the template in OOXML format.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ExcelCustomizer.Customizer.FieldValues">
+	<summary>
+ Field values to be filled to the template.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ExcelCustomizer.Customizer.TableDataSources">
+	<summary>
+ Data source of the tables.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ExcelCustomizer.Customizer.TableFormaters">
+	<summary>
+ Array of Formater instances respectively associated with the DataTables in the DataSet as the data source.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ExcelCustomizer.Customizer.ExportToExcel">
+	<summary>
+ Get the OOXML output.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ExcelCustomizer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelCustomizer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ExcelCustomizer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,742 @@
+Body
+{
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+A:Link
+{
+font-size: 10pt;
+text-decoration: normal;
+color: #000066;
+}
+
+A:Hover
+{
+font-size: 10pt;
+text-decoration: underline;
+color: #990033;
+}  
+
+A:Active
+{
+font-size: 10pt;
+text-decoration: normal;
+color: #990033;
+}  
+
+A:Visited
+{
+font-size: 10pt;
+text-decoration: normal;
+color: #000066;
+}  
+
+B
+{
+    color: #333333;
+    font-weight: bold;
+} 
+
+H1
+{
+    font-size: 10;
+    color: #666666; 
+} 
+
+H2
+{
+    font-size: 10;
+    color: #666666;
+}   
+
+H3
+{
+    font-size: 10;
+    color: #666666;
+}   
+
+H4
+{
+    font-size: 10;
+    color: #666666;
+}   
+
+H5
+{
+    font-size: 10;
+    color: #666666;
+}   
+
+H6
+{
+    font-size: 9;
+    color: #666666;
+}   
+
+.black13
+{
+    font-size: 13pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: Black;
+}   
+
+
+.black9
+{
+    font-size: 9pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+}   
+
+.black8
+{
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+}   
+
+.gray8
+{
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #666666;
+}   
+
+.gray9
+{
+    font-size: 9pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #333333;
+}   
+
+.gray8cc
+{
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #cccccc;
+}   
+
+.boldblue8
+{
+    font-size: 8pt;
+    color: #000066;
+    font-weight: bold;
+}   
+
+.boldblack8
+{
+   font-size: 8pt;
+   color: #000000;
+   font-weight: bold; 
+}   
+
+.boldwhite8
+{
+   font-size: 8pt;
+   color: #ffffff;
+   font-weight: bold ;
+}   
+
+.boldred8
+{
+    font-size: 8pt;
+    color: #990033;
+    font-weight: bold;
+}   
+
+.boldgray8
+{
+    font-size: 8pt;
+    color: #666666;
+    font-weight: bold;
+}   
+
+.boldblue9
+{
+    font-size: 9pt;
+    color: #000066;
+    font-weight: bold;
+}   
+
+.boldblack9
+{
+    font-size: 9pt;
+    color: #000000;
+    font-weight: bold;
+}  
+
+.boldwhite9
+{
+    font-size: 9pt;
+    color: #ffffff;
+    font-weight: bold;
+}   
+
+.boldred9
+{
+    font-size: 9pt;
+    color: #990033;
+    font-weight: bold; 
+}  
+
+.boldgray9
+{
+    font-size: 9pt;
+    color: #666666;
+    font-weight: bold; 
+}  
+
+.boldblue10
+{
+    font-size: 10pt;
+    color: #000066;
+    font-weight: bold;
+}   
+
+.boldblack10
+{
+    font-size: 10pt;
+    color: #000000;
+    font-weight: bold;
+}   
+
+.boldwhite10
+{
+    font-size: 10pt;
+    color: #ffffff;
+    font-weight: bold;
+}   
+
+.boldred10
+{
+    font-size: 10pt;
+    color: #990033;
+    font-weight: bold;
+}   
+
+.boldgray10
+{
+    font-size: 10pt;
+    color: #666666;
+    font-weight: bold;
+}   
+
+.boldblue11
+{
+    font-size: 11pt;
+    color: #000066;
+    font-weight: bold;
+}   
+
+.boldblack11
+{
+    font-size: 11pt;
+    color: #000000;
+    font-weight: bold;  
+} 
+
+.boldwhite11
+{
+    font-size: 11pt;
+    color: #ffffff;
+    font-weight: bold; 
+}  
+
+.boldred11
+{
+    font-size: 11pt;
+    color: #990033;
+    font-weight: bold;
+}   
+
+.boldgray11
+{
+    font-size: 11pt;
+    color: #666666;
+    font-weight: bold;
+}   
+
+.boldblue13
+{
+    font-size: 13pt;
+    color: #000066;
+    font-weight: bold;
+}   
+
+.boldblack13
+{
+    font-size: 13pt;
+    color: #000000;
+    font-weight: bold;
+}   
+
+.boldwhite13
+{
+    font-size: 13pt;
+    color: #ffffff;
+    font-weight: bold;
+}   
+
+.boldred13
+{
+    font-size: 13pt;
+    color: #990033;
+    font-weight: bold;
+}   
+
+.boldgray13
+{
+    font-size: 13pt;
+    color: #666666;
+    font-weight: bold;
+}   
+.BorderThinSolid
+{
+	border-bottom: black thin solid;
+	border-right: thin solid;
+	border-top: thin solid;
+	border-left: thin solid;
+}   
+
+.BorderTopSolid
+{
+	border-top: black solid;
+}   
+
+.BorderBottomSolid
+{
+	border-bottom: black solid;
+}   
+
+.BorderLeftSolid
+{
+	border-left: black solid;
+}   
+
+.BorderTopBottomSolid
+{
+	border-top: black solid;
+	border-bottom: black solid;
+}   
+
+.BorderRightSolid
+{
+	border-right: black solid;
+}   
+
+.BorderLeftRightSolid
+{
+	border-left: black solid;
+	border-right: black solid;
+}   
+
+.BorderLeftBottomSolid
+{
+	border-left: black solid;
+	border-bottom: black solid;
+}   
+
+.BorderRightBottomSolid
+{
+	border-right: black solid;
+	border-bottom: black solid;
+}   
+
+.BorderRightTopSolid
+{
+	border-right: black solid;
+	border-top: black solid;
+}   
+
+.DoubleBorderTopHalf
+{
+	border-right: black 3px double;
+	border-top: black 3px double;
+	border-left: black 3px double;
+	text-align: center;
+}
+
+.DoubleBorderBottomHalf
+{
+	border-right: black 3px double;
+	border-bottom: black 3px double;
+	border-left: black 3px double;
+	text-align: center;
+}
+
+.Arial8Grid
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+}   
+
+.SelectionControls
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+}   
+
+
+.SelectionControlsPad
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    margin-right: 6px;
+}   
+
+.SelectionControlsPadExtraLeft
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    margin-right: 6px;
+    margin-left: 20px;
+}   
+
+.SelectionControlsButtonPad
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    margin-right: 6px;
+}   
+
+.TreeViewControl
+{
+    font-family: Arial;
+    font-size:smaller;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    margin-right:6px;
+}   
+
+.ErrorLabel
+{
+    font-family: Arial;
+    font-size: 14pt;
+    text-decoration: none;
+    font-weight: bold;
+    color:Red;
+}   
+
+.AdvRecordLabel
+{
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    font-weight: bold;
+    color:Red;
+}   
+
+.TreeViewButtons
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    margin-right: 6px;
+}   
+
+.AttributesBold
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight:bold;
+    color: #000000;
+}   
+
+.AttributesNormal
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight:normal;
+    color: #000000;
+}   
+
+.AttributesLink
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: underline;
+    font-weight:normal;
+    color: #000000;
+}   
+
+.AttrTableRow
+{
+    padding-top:5px;
+}
+
+.hiddencol
+{
+	display:none;
+}	
+
+.SelectionControlsVisibleButtonPad
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    margin-right: 6px;
+    visibility:visible;
+}   
+
+.SelectionControlsCollapseButtonPad
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    margin-right: 6px;
+    visibility:hidden;
+}   
+
+.DBPickerTable
+{
+	margin-top:20px;
+}
+
+.DBPickerHeader
+{
+    font-family: Arial;
+    font-size: 12pt;
+    text-decoration: none;
+    font-weight:bold;
+}    
+
+.DBPickerRadioButtons
+{
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    font-weight:normal;
+
+}    
+
+.DBPickerCommandButtons
+{
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    font-weight:normal;
+    padding:2px;
+    margin-top:10px;
+}    
+
+.gvAttrHeader
+{
+    padding-left:3px;
+    padding-right:5px;
+}
+
+.gvAttrBoldMid
+{
+	border-right-color:Black;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-left-color:Black;
+    padding-left:3px;
+    padding-right:5px;
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight:bold;
+    color: #000000;
+}   
+
+.gvAttrCmdLeftEdge
+{
+    padding-left:3px;
+    padding-right:5px;
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    color: #000000;
+}   
+
+.gvAttrBoldLeftEdge
+{
+	border-right-color:Black;
+    padding-left:3px;
+    padding-right:5px;
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight:bold;
+    color: #000000;
+}   
+
+.gvAttrBoldRightEdge
+{
+	border-left-color:Black;
+    padding-left:3px;
+    padding-right:5px;
+    font-family: Arial;
+    font-size: 8pt;
+    text-decoration: none;
+    font-weight:bold;
+    color: #000000;
+}   
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:White;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+}
+
+.pnlHeader
+{
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    font-weight:bold;
+}    
+
+.pnlLblHeader
+{
+    font-family: Tahoma;
+    font-size: 10pt;
+    text-decoration: underline;
+    font-weight:bold;
+}    
+
+.btnPositionAdvClear
+{
+	position: relative;
+	top: 30px;
+}
+
+.btnPositionAdv
+{
+	position: relative;
+	top: -30px;
+}
+
+.resizeHandle
+{
+	width:16px;
+	height:16px;
+	background-image:url(../images/HandleGrip.png);
+	overflow:hidden;
+	cursor:se-resize;
+	
+}
+
+.resizingBorder
+{
+	padding:0px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#7391BA;
+}
+
+.OKButton
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/*Tool Tip*/
+
+
+body {
+	font: 15px Tahoma;
+	background-color: #F7F7E9;
+	color: #FFFFFF;
+}
+.GridHeaderText
+{
+	font: 15px Tahoma;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.PageHeader
+{
+	font: 15px Tahoma;
+	color: Navy;
+	text-decoration:none;
+}
+.labelText
+{
+Font-Size :8pt; 
+color : Black;
+Font:Tahoma;
+}
+h1 {
+    font: bold 32px Times;
+	color: #666;
+	text-align: center;
+	padding: 20px 0;    
+}
+#container {
+    width: 700px;
+    margin: 10px auto;
+}
+/*.mGrid { 
+    width: 100%; 
+    background-color: #fff; 
+    margin: 5px 0 10px 0; 
+    border: solid 1px #525252; 
+    border-collapse:collapse; 
+}
+.mGrid td { 
+    padding: 2px; 
+    border: solid 1px #c1c1c1; 
+    color: #717171; 
+}
+.mGrid th { 
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #424242 url(../images/grd_head.png) repeat-x top; 
+    border-left: solid 1px #525252; 
+    font-size: 0.9em; 
+}
+.mGrid .alt { background: #fcfcfc url(../images/grd_alt.png) repeat-x top; }
+.mGrid .pgr { background: #424242 url(../images/grd_pgr.png) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td { 
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+ }   
+.mGrid .pgr a { color: #666; text-decoration: none; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }*/

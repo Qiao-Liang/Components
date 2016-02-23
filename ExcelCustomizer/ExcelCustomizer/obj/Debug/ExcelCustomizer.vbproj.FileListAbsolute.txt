@@ -1,0 +1,10 @@
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\bin\Debug\ExcelCustomizer.dll
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\bin\Debug\ExcelCustomizer.pdb
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\bin\Debug\ExcelCustomizer.xml
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\obj\Debug\ExcelCustomizer.Resources.resources
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\obj\Debug\ExcelCustomizer.dll
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\obj\Debug\ExcelCustomizer.xml
+C:\Users\aalian\AppData\Local\Temporary Projects\ExcelCustomizer\obj\Debug\ExcelCustomizer.pdb

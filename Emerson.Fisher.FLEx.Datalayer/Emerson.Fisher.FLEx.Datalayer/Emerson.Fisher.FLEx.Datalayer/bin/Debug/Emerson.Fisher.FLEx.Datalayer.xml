@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Emerson.Fisher.FLEx.Datalayer
+</name>
+</assembly>
+<members>
+<member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteDataset(System.String,System.Object[])">
+	<summary>
+ Method to return the result in dataset format on execution with the specified stored procedure with the input params.
+ </summary>
+	<param name="procedureName">Procedure Name to execute</param>
+	<param name="inputParam">Input Parameters to the Stored Procedure</param>
+	<returns>returns the resultant dataset</returns>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteDatatable(System.String,System.Object[])">
+	<summary>
+ Method to return the result in datatable format on the result of execution StoredProcedure with input param
+ </summary>
+	<param name="procedureName">Procedure Name to execute</param>
+	<param name="inputParam">Input Parameters to the Stored Procedure</param>
+	<returns>returns the resultant datatable</returns>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteNonQuery(System.String,System.Object[])">
+	<summary>
+ Method to execute the Stored Procedure which will perform data manipulation operations.
+ </summary>
+	<param name="procedureName">Procedure Name to execute</param>
+	<param name="inputParam">Input Parameters to the Stored Procedure</param>
+	<returns>An indicator with the success flag of the number of affected records.</returns>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteScalar(System.String,System.Object[])">
+	<summary>
+ Method to execute the Stored Procedure which will perform operation and return a single result.
+ </summary>
+	<param name="procedureName">Procedure Name to execute</param>
+	<param name="inputParam">Input Parameters to the Stored Procedure</param>
+	<returns>A single object which contains the results from the stored procedure execution.</returns>
+	<remarks></remarks>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteDataset(System.String)">
+	<summary>
+ Method to return the result in dataset format on the result of input SQL-inline Query.
+ </summary>
+	<param name="sqlQuery">Inline Query to execute</param>
+	<returns>returns the dataset as the ouptut of in-line query execution</returns>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteDatatable(System.String)">
+	<summary>
+ Method to return the result in datatable format on the result of input SQL-inline Query.
+ </summary>
+	<param name="sqlQuery">Inline Query to execute</param>
+	<returns>returns the datatable as the ouptut of in-line query execution</returns>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteReader(System.String)">
+	<summary>
+ Method to return the datareader object on the result of input SQL-inline Query.
+ </summary>
+	<param name="sqlQuery">Inline Query to execute</param>
+	<returns>returns the datareader as the ouptut of in-line query execution</returns>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteScalar(System.String)">
+	<summary>
+ Method to return a single result on the result of input SQL-inline Query.
+ </summary>
+	<param name="sqlQuery">Inline Query to execute</param>
+	<returns>A single object which contains the results from the stored SQL-inline Query execution.</returns>
+	<remarks></remarks>
+</member><member name="M:Emerson.Fisher.FLEx.Datalayer.EmersonDAL.ExecuteNonQuery(System.String)">
+	<summary>
+ Method to execute in-line query which will perform data manipulation operations.
+ </summary>
+	<param name="sqlQuery">Inline Query to execute</param>
+	<returns>An indicator with the success flag of the number of affected records.</returns>
+</member><member name="P:Emerson.Fisher.FLEx.Datalayer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Emerson.Fisher.FLEx.Datalayer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Emerson.Fisher.FLEx.Datalayer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

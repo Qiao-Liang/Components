@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelExporter
+</name>
+</assembly>
+<members>
+<member name="P:ExcelExporter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ExcelExporter.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ExcelExporter.ExcelExporter.ExportToExcel(System.Data.DataTable,System.String,System.Int32[])">
+	<summary>
+ Load the pieces of XML spreadsheet (Excel) template, fill them with data and concatenate them to form a valid XML file.
+ </summary>
+	<param name="dtExp">DataTable to be exported</param>
+	<returns>The string of XML spreadsheet</returns>
+	<remarks>Excel spreadsheet can be saved as XML file. The principle of this method is to prepare the Excel with XML spreadsheet templates.</remarks>
+</member><member name="M:ExcelExporter.ExcelExporter.AttachRows(System.Data.DataTable,System.Int32,System.Int32,System.Text.StringBuilder)">
+	<summary>
+ Fill data to each row with the XML row template.
+ </summary>
+	<param name="dtRow">DataTable containing the data of all the rows to be exported</param>
+	<param name="iStrIdx">DataTable index of the first row in the current page</param>
+	<param name="iEndIdx">DataTable index of the last row in the current page</param>
+	<param name="sbXML">StringBuilder concantenating each XML piece templates</param>
+	<remarks>It fills data for one single page of the spreadsheet in each invoke.</remarks>
+</member><member name="T:ExcelExporter.ExcelExporter">
+	<summary>
+ This class takes in data in the type of DataTable and output a string in XML spreadsheet format.
+ </summary>
+	<remarks>
+ Created by Alex Liang on 4-Apr-2011
+ </remarks>
+</member>
+</members>
+</doc>

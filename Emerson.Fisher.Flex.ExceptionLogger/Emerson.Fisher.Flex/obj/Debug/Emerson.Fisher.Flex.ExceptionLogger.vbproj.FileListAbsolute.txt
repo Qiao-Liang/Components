@@ -1,0 +1,10 @@
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\bin\Debug\Emerson.Fisher.Flex.ExceptionLogger.dll
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\bin\Debug\Emerson.Fisher.Flex.ExceptionLogger.pdb
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\bin\Debug\Emerson.Fisher.Flex.ExceptionLogger.xml
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\obj\Debug\Emerson.Fisher.Flex.Resources.resources
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\obj\Debug\ResGen.read.1.tlog
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\obj\Debug\ResGen.write.1.tlog
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\obj\Debug\Emerson.Fisher.Flex.ExceptionLogger.dll
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\obj\Debug\Emerson.Fisher.Flex.ExceptionLogger.xml
+C:\Users\aalian\Desktop\Emerson.Fisher.Flex\Emerson.Fisher.Flex\obj\Debug\Emerson.Fisher.Flex.ExceptionLogger.pdb

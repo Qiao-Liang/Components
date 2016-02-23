@@ -1,0 +1,145 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelExporter
+</name>
+</assembly>
+<members>
+<member name="P:ExcelExporter.ExcelFormater.FontName">
+	<summary>
+ Font name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, Calibri</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.FontFamily">
+	<summary>
+ Font family.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, Swiss</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.ReportName">
+	<summary>
+ The name of the report.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>Can be taken as the sheet name and the name of the report.</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.CellFontColor">
+	<summary>
+ Hex color of cell font.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #000000</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.CellBackColor">
+	<summary>
+ Hex color of cell background.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #FFFFFF</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.AlterCellBackColor">
+	<summary>
+ Hex color of alternative cell background.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #C0C0C0</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.HeaderFontColor">
+	<summary>
+ Hex color of header font.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #FFFFFF</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.HeaderBackColor">
+	<summary>
+ Hex color of header background. 
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #3366FF</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.DecimalFormat">
+	<summary>
+ Format of Decimal.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, 0.00000</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.DateTimeFormat">
+	<summary>
+ Format of DateTime columns.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, dd/MM/yyyy</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.CenterAlignColumns">
+	<summary>
+ The array of names of the center-aligned columns
+ </summary>
+	<value>Array of String</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.ShowReportName">
+	<summary>
+ Decide whether show the report name or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>The default value is False.</remarks>
+</member><member name="P:ExcelExporter.ExcelFormater.SearchParameters">
+	<summary>
+ Key/Value pairs of the search parameters
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ExcelExporter.ExcelFormater.#ctor">
+	<summary>
+ Constructor.
+ </summary>
+	<remarks>Set the default values.</remarks>
+</member><member name="P:ExcelExporter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ExcelExporter.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ExcelExporter.ExcelExporter.ExportToExcel(System.Data.DataTable,ExcelExporter.ExcelFormater)">
+	<summary>
+ Load the pieces of XML spreadsheet (Excel) template, fill them with data and concatenate them to form a valid XML file.
+ </summary>
+	<param name="dtExp">Data to be exported</param>
+	<param name="objFormater">Instance of the ExcelFormater providing all format information</param>
+	<returns>The string of XML spreadsheet</returns>
+	<remarks>Excel spreadsheet can be saved as XML file. The principle of this method is to prepare the Excel with XML spreadsheet templates.</remarks>
+</member><member name="M:ExcelExporter.ExcelExporter.AttachRows(System.Data.DataTable,System.Int32,System.Int32,System.Text.StringBuilder)">
+	<summary>
+ Fill data to each row with the XML row template.
+ </summary>
+	<param name="dtRow">DataTable containing the data of all the rows to be exported</param>
+	<param name="iStrIdx">DataTable index of the first row in the current page</param>
+	<param name="iEndIdx">DataTable index of the last row in the current page</param>
+	<param name="sbXML">StringBuilder concantenating each XML piece templates</param>
+	<remarks>It fills data for one single page of the spreadsheet in each invoke.</remarks>
+</member><member name="T:ExcelExporter.ExcelExporter">
+	<summary>
+ This class takes in data in the type of DataTable and output a string in XML spreadsheet format.
+ </summary>
+	<remarks>
+ Created by Alex Liang on 4-Apr-2011
+ V2.0 upgrade by Alex Liang on 4-Nov-2011
+ </remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelSpliter
+</name>
+</assembly>
+<members>
+<member name="M:ExcelSpliter.Splitter.ExportToSplitExcel(System.Data.DataTable,ExcelExporter.Formater,System.String[])">
+	<summary>
+ Export data splitted into multiple tables to Excel spreadsheet.
+ </summary>
+	<param name="dtSplt">Data source</param>
+	<param name="objFmt">Instance of Formater</param>
+	<param name="arrGroup">Array of columns by which the data rows are grouped</param>
+	<returns>String in XML manner</returns>
+	<remarks>The input DataTable would be sorted by the given columns.</remarks>
+</member><member name="T:ExcelSpliter.Splitter">
+	<summary>
+ A plug-in for the ExcelExport component.
+ </summary>
+	<remarks>Created by Alex Liang on 9-Nov-2011. As the first version, it doesn't cover the pagination.</remarks>
+</member><member name="P:ExcelSpliter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelSpliter.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ExcelSpliter.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

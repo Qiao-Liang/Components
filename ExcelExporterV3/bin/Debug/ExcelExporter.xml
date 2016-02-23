@@ -1,0 +1,182 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelExporter
+</name>
+</assembly>
+<members>
+<member name="P:ExcelExporter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ExcelExporter.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:ExcelExporter.Formater.MaxRowPerSheet">
+	<summary>
+ Maximum row count in a worksheet.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>The default value is 65536, which is the maximum of Excel 2003.</remarks>
+</member><member name="P:ExcelExporter.Formater.FontName">
+	<summary>
+ Font name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, Calibri</remarks>
+</member><member name="P:ExcelExporter.Formater.FontFamily">
+	<summary>
+ Font family.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, Swiss</remarks>
+</member><member name="P:ExcelExporter.Formater.ReportName">
+	<summary>
+ The name of the report.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>Can be taken as the sheet name and the name of the report.</remarks>
+</member><member name="P:ExcelExporter.Formater.CellFontColor">
+	<summary>
+ Hex color of cell font.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #000000</remarks>
+</member><member name="P:ExcelExporter.Formater.CellBackColor">
+	<summary>
+ Hex color of cell background.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #FFFFFF</remarks>
+</member><member name="P:ExcelExporter.Formater.AlterCellBackColor">
+	<summary>
+ Hex color of alternative cell background.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #C0C0C0</remarks>
+</member><member name="P:ExcelExporter.Formater.HeaderFontColor">
+	<summary>
+ Hex color of header font.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #FFFFFF</remarks>
+</member><member name="P:ExcelExporter.Formater.HeaderBackColor">
+	<summary>
+ Hex color of header background. 
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, #3366FF</remarks>
+</member><member name="P:ExcelExporter.Formater.DecimalFormat">
+	<summary>
+ Format of Decimal.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, 0.00000</remarks>
+</member><member name="P:ExcelExporter.Formater.DateTimeFormat">
+	<summary>
+ Format of DateTime columns.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>For example, dd/MM/yyyy</remarks>
+</member><member name="P:ExcelExporter.Formater.ShowHeader">
+	<summary>
+ Decides whether show the report header or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>The default value is True.</remarks>
+</member><member name="P:ExcelExporter.Formater.CenterAlignColumns">
+	<summary>
+ The array of names of the center-aligned columns
+ </summary>
+	<value>Array of String</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ExcelExporter.Formater.SearchParameters">
+	<summary>
+ Key/Value pairs of the search parameters
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ExcelExporter.Formater.#ctor">
+	<summary>
+ Constructor.
+ </summary>
+	<remarks>Set the default values.</remarks>
+</member><member name="T:ExcelExporter.Formater">
+	<summary>
+ This class helps setting the format of the Excel to be exported.
+ </summary>
+	<remarks>
+ Created by Alex Liang on 4-Nov-2011
+ V3.0 upgrade by Alex Liang on 16-Nov-2011
+ </remarks>
+</member><member name="M:ExcelExporter.Exporter.ExportToExcel(System.Data.DataTable,ExcelExporter.Formater)">
+	<summary>
+ Load the pieces of XML spreadsheet (Excel) template, fill them with data and concatenate them to form a valid XML file.
+ </summary>
+	<param name="dtExp">Data to be exported</param>
+	<param name="objFmt">Instance of the ExcelFormater providing all format information</param>
+	<returns>The string of XML spreadsheet</returns>
+	<remarks>Excel spreadsheet can be saved as XML file. The principle of this method is to prepare the Excel with XML spreadsheet templates.</remarks>
+</member><member name="M:ExcelExporter.Exporter.InitDoc(ExcelExporter.Formater)">
+	<summary>
+ Initiate the XML document by loading the XML skeleton with predefined format.
+ </summary>
+	<param name="objFmt">Instance of Formater</param>
+	<remarks></remarks>
+</member><member name="M:ExcelExporter.Exporter.GetHeader(System.Data.DataColumnCollection)">
+	<summary>
+ Create the header template.
+ </summary>
+	<param name="dccExp">Collection of all the DataColumn in the DataTable to be exported</param>
+	<returns>XmlElement for the report header</returns>
+	<remarks></remarks>
+</member><member name="M:ExcelExporter.Exporter.GetTitle(System.String,System.Collections.Hashtable,System.Int32)">
+	<summary>
+ Get the report title template.
+ </summary>
+	<param name="strRptNm">Report name</param>
+	<param name="hshParas">Hashtable of parameters</param>
+	<param name="iMerge">Number of columns to merge</param>
+	<returns>Array of XmlElement containing the rows for report name and search parameters</returns>
+	<remarks>The value of iMerge does not include the first cell of the merge range. For example, if the 3 columns merge into 1, then iMerge should be 2.</remarks>
+</member><member name="M:ExcelExporter.Exporter.FillData(ExcelExporter.Formater,System.Data.DataTable,System.Int32)">
+	<summary>
+ Fill the data.
+ </summary>
+	<param name="objFmt">Instance of Formater</param>
+	<param name="dtData">Data to be exported</param>
+	<param name="iNnDt">Number of non-data rows in each worksheet</param>
+	<remarks>Auto-pagination is equiped.</remarks>
+</member><member name="T:ExcelExporter.Exporter">
+	<summary>
+ This class takes in data in the type of DataTable and output a string in XML spreadsheet format.
+ </summary>
+	<remarks>
+ Created by Alex Liang on 4-Apr-2011
+ V2.0 upgrade by Alex Liang on 4-Nov-2011 -- Exporter introduced, report title section enabled,  DateTime bug fixed.
+ V3.0 upgrade by Alex Liang on 16-Nov-2011 -- Switched the file generating from StringBuilder to XML classes. Splited steps into multiple methods.
+ </remarks>
+</member>
+</members>
+</doc>

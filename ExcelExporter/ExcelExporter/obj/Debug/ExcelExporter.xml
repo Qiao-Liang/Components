@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelExporter
+</name>
+</assembly>
+<members>
+<member name="P:ExcelExporter.My.Resources.Templates.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Templates.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Templates.CellHead">
+	<summary>
+  Looks up a localized string similar to &lt;Cell ss:StyleID="$Style$"&gt;&lt;Data ss:Type="$Type$"&gt;.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Templates.CellTail">
+	<summary>
+  Looks up a localized string similar to &lt;/Data&gt;&lt;/Cell&gt;.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Templates.Head">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0"?&gt;
+&lt;?mso-application progid="Excel.Sheet"?&gt;
+&lt;Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"&gt;
+ &lt;DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"&gt;
+  &lt;LastAuthor&gt;AALIAN&lt;/LastAuthor&gt;
+  &lt;Created&gt;1996-10-14T23:33:28Z&lt;/Created&gt;
+  &lt;LastSaved&gt;2011-03-25T2 [rest of string was truncated]";.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Templates.SheetHead">
+	<summary>
+  Looks up a localized string similar to &lt;Worksheet ss:Name="$SheetName$"&gt;
+  &lt;Table ss:ExpandedColumnCount="$ColCount$" ss:ExpandedRowCount="$RowCount$" x:FullColumns="1".
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Templates.SheetTail">
+	<summary>
+  Looks up a localized string similar to &lt;/Table&gt;
+  &lt;WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"&gt;
+   &lt;Selected/&gt;
+   &lt;ProtectObjects&gt;False&lt;/ProtectObjects&gt;
+   &lt;ProtectScenarios&gt;False&lt;/ProtectScenarios&gt;
+  &lt;/WorksheetOptions&gt;
+ &lt;/Worksheet&gt;.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Templates.Tail">
+	<summary>
+  Looks up a localized string similar to &lt;/Workbook&gt;.
+</summary>
+</member><member name="T:ExcelExporter.My.Resources.Templates">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ExcelExporter.ExcelExporter.ExportToExcel(System.Data.DataTable,System.String,System.Boolean[])">
+	<summary>
+ Load the pieces of XML spreadsheet (Excel) template, fill them with data and concatenate them to form a valid XML file.
+ </summary>
+	<param name="dtExp">DataTable to be exported</param>
+	<returns>The string of XML spreadsheet</returns>
+	<remarks>Excel spreadsheet can be saved as XML file. The principle of this method is to prepare the Excel with XML spreadsheet templates.</remarks>
+</member><member name="M:ExcelExporter.ExcelExporter.AttachRows(System.Data.DataTable,System.Int32,System.Int32,System.Text.StringBuilder)">
+	<summary>
+ Fill data to each row with the XML row template.
+ </summary>
+	<param name="dtRow">DataTable containing the data of all the rows to be exported</param>
+	<param name="iStrIdx">DataTable index of the first row in the current page</param>
+	<param name="iEndIdx">DataTable index of the last row in the current page</param>
+	<param name="sbXML">StringBuilder concantenating each XML piece templates</param>
+	<remarks>It fills data for one single page of the spreadsheet in each invoke.</remarks>
+</member><member name="T:ExcelExporter.ExcelExporter">
+	<summary>
+ This class takes in data in the type of DataTable and output a string in XML spreadsheet format.
+ </summary>
+	<remarks>
+ Created by Alex Liang on 4-Apr-2011
+ </remarks>
+</member><member name="P:ExcelExporter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelExporter.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ExcelExporter.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
